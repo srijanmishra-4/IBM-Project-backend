@@ -5,7 +5,7 @@ const authController = require('../contoller/authController')
 
 router.post('/sign-in' , authController.singIn)
 
-router.post('/sign-out' , authController.signOut)
+router.post('/sign-up' , authController.signOut)
 
 router.get('/generate-otp' , authController.generateOTP)
 
