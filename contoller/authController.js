@@ -3,12 +3,12 @@ const { verifyUser } = require("../auth/verifyUser")
 
 exports.singIn = async (req, res) => {
 
-    // console.log('inside login ')
+    console.log('inside login ')
 
     const { email, password } = req.body
 
-    // console.log("Email:", req.body.email);
-    // console.log("Password:", req.body.password);
+    console.log("Email:", req.body.email);
+    console.log("Password:", req.body.password);
 
 
     try {

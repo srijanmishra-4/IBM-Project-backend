@@ -3,6 +3,7 @@ const { generateToken } = require('../utils/generateToken')
 const User = require('../model/user')
 
 async function verifyUser(email, password) {
+  console.log(email,password)
     try {
   
       const user = await User.findOne({ email: String(email) });
